@@ -1,0 +1,33 @@
+{
+    "name":"tea-products",
+    "title":"Tea Products",
+    "description":"A Marionette.js and Require.js Boilerplate with a tea products example that promotes decoupling your JavaScript into modules, separating business logic from application logic using Models and Views, organizing your application into Regions with default build-up/tear-down logic for you Views, including non-AMD Compatible Third Party Scripts in your project, and optimising all of your JavaScript (minify, concatenate, etc).",
+    "version":"1.1.0",
+    "homepage":"https://github.com/robertstettner/tea-products",
+    "author":{
+        "name":"Robert Stettner",
+        "email":"robert.stettner@gmail.com"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git@github.com:robertstettner/tea-products.git"
+    },
+    "licenses":[
+        {
+            "type":"MIT",
+            "url":"https://github.com/robertstettner/tea-products/blob/master/LICENSE-MIT"
+        }
+    ],
+    "dependencies":{
+        "express":"3.x"
+    },
+    "devDependencies":{
+        "express":"3.x",
+        "grunt":"~0.4.1",
+        "grunt-contrib-requirejs":"~0.4.0",
+        "grunt-contrib-jshint":"~0.3.0",
+        "uglify-js":"~2.2.5"
+    },
+    "main":"./server/server",
+    "keywords":["Marionette.js", "Backbone.js", "Require.js", "Marionette and Require Boilerplate"]
+}
